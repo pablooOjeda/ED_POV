@@ -25,6 +25,11 @@ public class Main {
 				double gravedadJupiter = pla1.getGravedadPlaneta();
 				double pesoJupiter = masaPersona*gravedadJupiter;
 		//Mostrar informacion
+		extracted(per1, per2, pla1, pla2, pla3, pesoTierra, pesoMarte, pesoJupiter);
+	}
+
+	public static void extracted(Persona_POV per1, Persona_POV per2, POV_GravedadPlaneta pla1, POV_GravedadPlaneta pla2,
+			POV_GravedadPlaneta pla3, double pesoTierra, double pesoMarte, double pesoJupiter) {
 		System.out.println(per1);
 		System.out.println("El IMC de la persona "+per1.getNombre()+" es...");
 		System.out.println(per2);

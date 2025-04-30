@@ -19,6 +19,7 @@ public class Persona_POV {
 		return "Persona_POV [id=" + id + ", nombre=" + nombre + ", masa=" + masa + ", altura=" + altura + ", edad="
 				+ edad + "]";
 	}
+	
 	private double masa;
 	private double altura;
 	private int edad;
