@@ -41,7 +41,7 @@ public class POV_GravedadPlaneta {
 	private double GravedadPlaneta;
 	
 	public static void main(String[] args) {
-		
+		 
 
 	}
 
