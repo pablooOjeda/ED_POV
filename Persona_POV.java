@@ -10,6 +10,9 @@ public class Persona_POV {
 		this.altura = altura;
 		this.edad = edad;
 	}
+	public Persona_POV(int id2, String string, int masa2, double altura2, int edad2) {
+		// TODO Auto-generated constructor stub
+	}
 	private int nombre;
 	@Override
 	public String toString() {
